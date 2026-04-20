@@ -1,0 +1,19 @@
+============================================================
+SANITY CHECK: SN-trained CycleGAN -> LON generalization
+============================================================
+
+Training data: SN (34 pants, 35 hoots)
+Test data:     LON (6 pants, 8 hoots)
+
+SN  combined cycle loss: 0.0113
+LON combined cycle loss: 0.0170
+Difference (LON - SN):   0.0057
+
+Mann-Whitney U (SN < LON): U=0.0, p=2.2109e-09
+Effect size: 1.000
+95% CI on diff: [0.0046, 0.0069]
+
+Other KSK callers: 0.0166 (n=156)
+
+CONCLUSION: LON has significantly higher reconstruction error.
+The SN-trained cycle breaks down on LON.

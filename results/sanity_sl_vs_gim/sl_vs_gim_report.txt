@@ -1,0 +1,20 @@
+============================================================
+SANITY CHECK: SL-trained CycleGAN -> GIM generalization
+============================================================
+
+Training data: SL (14 pants, 12 hoots)
+Test data:     GIM (2 pants, 4 hoots)
+
+SL  combined cycle loss: 0.0177
+GIM combined cycle loss: 0.1370
+Difference (GIM - SL):   0.1193
+
+Mann-Whitney U (SL < GIM): U=0.0, p=0.0000
+Effect size: 1.000
+95% CI on diff: [0.0916, 0.1454]
+
+Other KSK callers: 0.1526 (n=193)
+
+CONCLUSION: GIM has significantly higher reconstruction error.
+The SL-trained cycle breaks down on GIM, consistent with
+opposing dialects between these two callers.

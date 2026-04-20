@@ -1,0 +1,614 @@
+======================================================================
+PER-CALLER PAIRWISE CYCLEGAN DIALECT ANALYSIS
+======================================================================
+
+--- Kasekela (KSK) ---
+
+  FND (trained on 6 pants, 11 hoots):
+    In-group mean:  1.3065 (n=201)
+    Out-group mean: 1.2672 (n=316)
+      vs MTB: 1.2515 (n=132)
+      vs KAN: 1.2785 (n=184)
+    Mann-Whitney (in < out): U=33603, p=0.8675, effect=-0.058 -> significant: NO
+
+  FO (trained on 12 pants, 19 hoots):
+    In-group mean:  1.0098 (n=187)
+    Out-group mean: 1.0205 (n=316)
+      vs MTB: 1.0151 (n=132)
+      vs KAN: 1.0245 (n=184)
+    Mann-Whitney (in < out): U=28083, p=0.1766, effect=0.050 -> significant: NO
+
+  FU (trained on 27 pants, 33 hoots):
+    In-group mean:  0.9222 (n=158)
+    Out-group mean: 0.9214 (n=316)
+      vs MTB: 0.9141 (n=132)
+      vs KAN: 0.9267 (n=184)
+    Mann-Whitney (in < out): U=24382, p=0.3396, effect=0.023 -> significant: NO
+
+  SL (trained on 14 pants, 12 hoots):
+    In-group mean:  1.0823 (n=192)
+    Out-group mean: 1.0783 (n=316)
+      vs MTB: 1.0728 (n=132)
+      vs KAN: 1.0823 (n=184)
+    Mann-Whitney (in < out): U=30555, p=0.5544, effect=-0.007 -> significant: NO
+
+  SN (trained on 34 pants, 35 hoots):
+    In-group mean:  0.8868 (n=149)
+    Out-group mean: 0.9081 (n=316)
+      vs MTB: 0.9111 (n=132)
+      vs KAN: 0.9059 (n=184)
+    Mann-Whitney (in < out): U=20692, p=0.0175, effect=0.121 -> significant: YES
+
+  ZS (trained on 7 pants, 8 hoots):
+    In-group mean:  1.1764 (n=203)
+    Out-group mean: 1.1752 (n=316)
+      vs MTB: 1.1677 (n=132)
+      vs KAN: 1.1806 (n=184)
+    Mann-Whitney (in < out): U=32389, p=0.5750, effect=-0.010 -> significant: NO
+
+--- Mitumba (MTB) ---
+
+  EDG (trained on 24 pants, 41 hoots):
+    In-group mean:  0.8995 (n=67)
+    Out-group mean: 0.9065 (n=402)
+      vs KSK: 0.9089 (n=218)
+      vs KAN: 0.9035 (n=184)
+    Mann-Whitney (in < out): U=12918, p=0.2967, effect=0.041 -> significant: NO
+
+  FAN (trained on 3 pants, 8 hoots):
+    In-group mean:  1.4754 (n=121)
+    Out-group mean: 1.5399 (n=402)
+      vs KSK: 1.5552 (n=218)
+      vs KAN: 1.5216 (n=184)
+    Mann-Whitney (in < out): U=23216, p=0.2243, effect=0.045 -> significant: NO
+
+  KOC (trained on 12 pants, 16 hoots):
+    In-group mean:  1.0460 (n=104)
+    Out-group mean: 1.0702 (n=402)
+      vs KSK: 1.0759 (n=218)
+      vs KAN: 1.0634 (n=184)
+    Mann-Whitney (in < out): U=19091, p=0.0863, effect=0.087 -> significant: NO
+
+  LAM (trained on 5 pants, 9 hoots):
+    In-group mean:  1.1987 (n=118)
+    Out-group mean: 1.2238 (n=402)
+      vs KSK: 1.2281 (n=218)
+      vs KAN: 1.2188 (n=184)
+    Mann-Whitney (in < out): U=22398, p=0.1789, effect=0.056 -> significant: NO
+
+  LON (trained on 6 pants, 8 hoots):
+    In-group mean:  1.1557 (n=118)
+    Out-group mean: 1.1690 (n=402)
+      vs KSK: 1.1675 (n=218)
+      vs KAN: 1.1707 (n=184)
+    Mann-Whitney (in < out): U=22066, p=0.1250, effect=0.070 -> significant: NO
+
+--- Kanyawara (KAN) ---
+
+  BB (trained on 6 pants, 8 hoots):
+    In-group mean:  1.1685 (n=170)
+    Out-group mean: 1.1608 (n=350)
+      vs KSK: 1.1610 (n=218)
+      vs MTB: 1.1605 (n=132)
+    Mann-Whitney (in < out): U=31469, p=0.8577, effect=-0.058 -> significant: NO
+
+  ES (trained on 10 pants, 18 hoots):
+    In-group mean:  1.0072 (n=156)
+    Out-group mean: 1.0236 (n=350)
+      vs KSK: 1.0287 (n=218)
+      vs MTB: 1.0151 (n=132)
+    Mann-Whitney (in < out): U=25519, p=0.1205, effect=0.065 -> significant: NO
+
+  KK (trained on 23 pants, 27 hoots):
+    In-group mean:  0.9174 (n=134)
+    Out-group mean: 0.9442 (n=350)
+      vs KSK: 0.9451 (n=218)
+      vs MTB: 0.9427 (n=132)
+    Mann-Whitney (in < out): U=20157, p=0.0084, effect=0.140 -> significant: YES
+
+  LK (trained on 11 pants, 11 hoots):
+    In-group mean:  1.0759 (n=162)
+    Out-group mean: 1.0849 (n=350)
+      vs KSK: 1.0880 (n=218)
+      vs MTB: 1.0798 (n=132)
+    Mann-Whitney (in < out): U=27262, p=0.2424, effect=0.038 -> significant: NO
+
+  PG (trained on 5 pants, 8 hoots):
+    In-group mean:  1.2188 (n=171)
+    Out-group mean: 1.2428 (n=350)
+      vs KSK: 1.2552 (n=218)
+      vs MTB: 1.2223 (n=132)
+    Mann-Whitney (in < out): U=27130, p=0.0416, effect=0.093 -> significant: YES
+
+  ST (trained on 9 pants, 12 hoots):
+    In-group mean:  1.0802 (n=163)
+    Out-group mean: 1.1026 (n=350)
+      vs KSK: 1.1073 (n=218)
+      vs MTB: 1.0950 (n=132)
+    Mann-Whitney (in < out): U=25296, p=0.0194, effect=0.113 -> significant: YES
+
+  TJ (trained on 11 pants, 25 hoots):
+    In-group mean:  0.9588 (n=148)
+    Out-group mean: 0.9616 (n=350)
+      vs KSK: 0.9697 (n=218)
+      vs MTB: 0.9483 (n=132)
+    Mann-Whitney (in < out): U=25711, p=0.4489, effect=0.007 -> significant: NO
+
+======================================================================
+NEAREST-NEIGHBOR AUDIO RETRIEVAL (top examples)
+======================================================================
+
+  BB (KAN):
+    1001_BE4.wav (pant) -> synthetic hoot:
+      -> 1001_CS1 (KAN/BB, hoot, dist=0.0261)
+      -> MTB001_SL_CS2 (KSK/SL, hoot, dist=0.4581)
+      -> 1296_CS3 (KAN/TJ, hoot, dist=0.5031)
+    1203_BE3.wav (pant) -> synthetic hoot:
+      -> 1249_CS1 (KAN/BB, hoot, dist=0.0407)
+      -> KSK195_FU_CS2 (KSK/FU, hoot, dist=0.3980)
+      -> MTB069_LON_CS1 (MTB/LON, hoot, dist=0.4883)
+    1240_BE3.wav (pant) -> synthetic hoot:
+      -> 1292_CS3 (KAN/BB, hoot, dist=0.0202)
+      -> 1183_CS1 (KAN/AJ, hoot, dist=0.5284)
+      -> 1057_CS1 (KAN/BB, hoot, dist=0.5422)
+    1241_BE2.wav (pant) -> synthetic hoot:
+      -> 1241_CS2 (KAN/BB, hoot, dist=0.0205)
+      -> MTB094_EDG_CS (MTB/EDG, hoot, dist=0.4046)
+      -> KSK306_FU_CS1 (KSK/FU, hoot, dist=0.4343)
+    1249_BE5.wav (pant) -> synthetic hoot:
+      -> 1203_CS1 (KAN/BB, hoot, dist=0.0536)
+      -> KSK039_LAM_CS1 (MTB/LAM, hoot, dist=0.3475)
+      -> KSK241_3_SL_CS1 (KSK/SL, hoot, dist=0.3902)
+    1273_BE3.wav (pant) -> synthetic hoot:
+      -> 1057_CS1 (KAN/BB, hoot, dist=0.0326)
+      -> 1241_CS2 (KAN/BB, hoot, dist=0.5002)
+      -> KSK234_FND_CS1 (KSK/FND, hoot, dist=0.5242)
+
+  EDG (MTB):
+    KSK005_EDG_BE3.wav (pant) -> synthetic hoot:
+      -> KSK046_EDG_CS2 (MTB/EDG, hoot, dist=0.0802)
+      -> KSK049_EDG_CS3 (MTB/EDG, hoot, dist=0.1005)
+      -> MTB042_1_KOC_CS1 (MTB/KOC, hoot, dist=0.1679)
+    KSK028_EDG_BE2.wav (pant) -> synthetic hoot:
+      -> KSK009_EDG_CS (MTB/EDG, hoot, dist=0.0456)
+      -> KSK156_1_FO_CS1 (KSK/FO, hoot, dist=0.3931)
+      -> MTB048_EDG_CS1 (MTB/EDG, hoot, dist=0.5623)
+    KSK034_EDG_BE2.wav (pant) -> synthetic hoot:
+      -> KSK007_EDG_CS8 (MTB/EDG, hoot, dist=0.0719)
+      -> MTB006_FAN_CS2 (MTB/FAN, hoot, dist=0.4590)
+      -> 1194_CS3 (KAN/ES, hoot, dist=0.5004)
+    KSK046_EDG_BE4.wav (pant) -> synthetic hoot:
+      -> MTB026_EDG_CS1 (MTB/EDG, hoot, dist=0.0640)
+      -> KSK230_1_FND_CS3 (KSK/FND, hoot, dist=0.4882)
+      -> MTB058_EDG_CS5 (MTB/EDG, hoot, dist=0.5100)
+    KSK049_EDG_BE4.wav (pant) -> synthetic hoot:
+      -> MTB006_EDG_CS6 (MTB/EDG, hoot, dist=0.0798)
+      -> MTB098_EDG_CS4 (MTB/EDG, hoot, dist=0.3401)
+      -> 1121_CS2 (KAN/PG, hoot, dist=0.4982)
+    MTB011_EDG_BE.wav (pant) -> synthetic hoot:
+      -> MTB025_EDG_jan_CS1 (MTB/EDG, hoot, dist=0.3361)
+      -> KSK008_EDG_CS (MTB/EDG, hoot, dist=0.3736)
+      -> MTB049_EDG_CS2 (MTB/EDG, hoot, dist=0.4717)
+
+  ES (KAN):
+    1078_BE1.wav (pant) -> synthetic hoot:
+      -> 1209_CS1 (KAN/ES, hoot, dist=0.0669)
+      -> 1384_CS1 (KAN/ST, hoot, dist=0.4523)
+      -> 1185_BE5 (KAN/ST, pant, dist=0.5061)
+    1116_BE2.wav (pant) -> synthetic hoot:
+      -> 1034_CS1 (KAN/ES, hoot, dist=0.0701)
+      -> KSK506_FU_CS1 (KSK/FU, hoot, dist=0.5102)
+      -> MTB042_1_KOC_CS1 (MTB/KOC, hoot, dist=0.5158)
+    1132_2_BE3.wav (pant) -> synthetic hoot:
+      -> 1116_CS1 (KAN/ES, hoot, dist=0.0813)
+      -> 1327_CS2 (KAN/ST, hoot, dist=0.5354)
+      -> KSK486_FU_CS2 (KSK/FU, hoot, dist=0.5398)
+    1132_BE2.wav (pant) -> synthetic hoot:
+      -> 1194_CS3 (KAN/ES, hoot, dist=0.0252)
+      -> 1114_CS1 (KAN/PG, hoot, dist=0.3358)
+      -> 1406_CS1 (KAN/PG, hoot, dist=0.4178)
+    1147_BE2.wav (pant) -> synthetic hoot:
+      -> 1004_CS3 (KAN/ES, hoot, dist=0.0427)
+      -> KSK028_SN_CS1 (KSK/SN, hoot, dist=0.3656)
+      -> KSK230_1_FND_CS3 (KSK/FND, hoot, dist=0.4418)
+    1152_BE2.wav (pant) -> synthetic hoot:
+      -> 1188_CS1 (KAN/ES, hoot, dist=0.0349)
+      -> 1280_CS6 (KAN/ES, hoot, dist=0.0465)
+      -> MTB100_EDG_CS1 (MTB/EDG, hoot, dist=0.3186)
+
+  FAN (MTB):
+    MTB006_FAN_BE2.wav (pant) -> synthetic hoot:
+      -> MTB006_FAN_CS2 (MTB/FAN, hoot, dist=0.0327)
+      -> KSK007_EDG_CS8 (MTB/EDG, hoot, dist=0.4536)
+      -> MTB007_FAN_CS4 (MTB/FAN, hoot, dist=0.4910)
+    MTB008_FAN_BE2.wav (pant) -> synthetic hoot:
+      -> MTB044_FAN_CS (MTB/FAN, hoot, dist=0.0305)
+      -> KSK201_FU_CS1 (KSK/FU, hoot, dist=0.2442)
+      -> KSK467_SL_CS2 (KSK/SL, hoot, dist=0.2702)
+    MTB009_FAN_BE3.wav (pant) -> synthetic hoot:
+      -> MTB008_FAN_CS2 (MTB/FAN, hoot, dist=0.0600)
+      -> KSK163_FU_CS1 (KSK/FU, hoot, dist=0.5171)
+      -> KSK265_FU_CS1 (KSK/FU, hoot, dist=0.5261)
+    KSK033_FAN_CS.wav (hoot) -> synthetic pant:
+      -> MTB009_FAN_BE3 (MTB/FAN, pant, dist=0.0251)
+      -> 1188_BE3 (KAN/ES, pant, dist=0.5476)
+      -> MTB020_SL_CS1 (KSK/SL, hoot, dist=0.5567)
+    MTB006_FAN_CS2.wav (hoot) -> synthetic pant:
+      -> MTB006_FAN_BE2 (MTB/FAN, pant, dist=0.0008)
+      -> KSK066_SN_CS1 (KSK/SN, hoot, dist=0.5689)
+      -> KSK231_1_FND_CS2 (KSK/FND, hoot, dist=0.6022)
+    MTB007_FAN_CS4.wav (hoot) -> synthetic pant:
+      -> MTB008_FAN_BE2 (MTB/FAN, pant, dist=0.0303)
+      -> 1183_BE3 (KAN/AJ, pant, dist=0.5204)
+      -> 1218_BE4 (KAN/LK, pant, dist=0.5620)
+
+  FND (KSK):
+    KSK230_1_FND_BE4.wav (pant) -> synthetic hoot:
+      -> KSK146_FND_CS4 (KSK/FND, hoot, dist=0.0615)
+      -> KSK280_ZS_BE2 (KSK/ZS, pant, dist=0.3851)
+      -> MTB059_KOC_CS (MTB/KOC, hoot, dist=0.4393)
+    KSK230_2_FND_BE2.wav (pant) -> synthetic hoot:
+      -> KSK230_1_FND_CS3 (KSK/FND, hoot, dist=0.1250)
+      -> KSK216_FND_CS3 (KSK/FND, hoot, dist=0.2800)
+      -> KSK028_SN_CS1 (KSK/SN, hoot, dist=0.3597)
+    KSK231_1_FND_BE4.wav (pant) -> synthetic hoot:
+      -> KSK231_2_FND_CS1 (KSK/FND, hoot, dist=0.0419)
+      -> 1131_CS1 (KAN/TJ, hoot, dist=0.4591)
+      -> KSK029_SN_CS3 (KSK/SN, hoot, dist=0.4965)
+    KSK234_FND_BE7.wav (pant) -> synthetic hoot:
+      -> KSK239_FND_CS (KSK/FND, hoot, dist=0.0707)
+      -> KSK231_1_FND_CS2 (KSK/FND, hoot, dist=0.1382)
+      -> KSK484_FU_CS3 (KSK/FU, hoot, dist=0.4713)
+    KSK239_FND_BE6.wav (pant) -> synthetic hoot:
+      -> MTB034_2_FND_CS1 (KSK/FND, hoot, dist=0.3045)
+      -> KSK246_FND_CS2 (KSK/FND, hoot, dist=0.4253)
+      -> 1136_CS1 (KAN/KK, hoot, dist=0.4340)
+    KSK246_FND_BE3.wav (pant) -> synthetic hoot:
+      -> KSK234_FND_CS1 (KSK/FND, hoot, dist=0.2036)
+      -> MTB034_2_FND_CS1 (KSK/FND, hoot, dist=0.3356)
+      -> MTB023_KOC_CS1 (MTB/KOC, hoot, dist=0.4260)
+
+  FO (KSK):
+    KSK004_FO_BE1.wav (pant) -> synthetic hoot:
+      -> KSK144_FO_CS2 (KSK/FO, hoot, dist=0.0126)
+      -> MTB032_FU_CS1 (KSK/FU, hoot, dist=0.4063)
+      -> KSK248_FU_CS1 (KSK/FU, hoot, dist=0.4319)
+    KSK012_FO_BE7.wav (pant) -> synthetic hoot:
+      -> KSK159_FO_CS1 (KSK/FO, hoot, dist=0.0054)
+      -> KSK094_FU_CS2 (KSK/FU, hoot, dist=0.3889)
+      -> MTB107_LAM_CS2 (MTB/LAM, hoot, dist=0.5333)
+    KSK014_FO_BE3.wav (pant) -> synthetic hoot:
+      -> KSK161_FO_CS2 (KSK/FO, hoot, dist=0.0104)
+      -> KSK082_2_FU_CS1 (KSK/FU, hoot, dist=0.3985)
+      -> KSK024_FO_CS1 (KSK/FO, hoot, dist=0.5067)
+    KSK018_FO_BE7.wav (pant) -> synthetic hoot:
+      -> KSK004_FO_CS1 (KSK/FO, hoot, dist=0.0233)
+      -> 1088_BE8 (KAN/KK, pant, dist=0.5424)
+      -> MTB057_KOC_BE3 (MTB/KOC, pant, dist=0.5511)
+    KSK024_FO_BE4.wav (pant) -> synthetic hoot:
+      -> KSK054_FO_CS2 (KSK/FO, hoot, dist=0.0069)
+      -> KSK306_FO_CS1 (KSK/FO, hoot, dist=0.4133)
+      -> 1247_CS1 (KAN/KK, hoot, dist=0.5198)
+    KSK054_FO_BE1.wav (pant) -> synthetic hoot:
+      -> KSK040_FO_CS1 (KSK/FO, hoot, dist=0.0102)
+      -> 1086_CS1 (KAN/PG, hoot, dist=0.3591)
+      -> 1133_2_CS1 (KAN/KK, hoot, dist=0.3631)
+
+  FU (KSK):
+    KSK007_FU_BE3.wav (pant) -> synthetic hoot:
+      -> MTB032_FU_CS1 (KSK/FU, hoot, dist=0.0255)
+      -> KSK248_FU_CS1 (KSK/FU, hoot, dist=0.2281)
+      -> KSK132_FO_CS2 (KSK/FO, hoot, dist=0.2424)
+    KSK082_1_FU_BE2.wav (pant) -> synthetic hoot:
+      -> KSK082_2_FU_CS1 (KSK/FU, hoot, dist=0.0094)
+      -> KSK024_FO_CS1 (KSK/FO, hoot, dist=0.2842)
+      -> KSK161_FO_CS2 (KSK/FO, hoot, dist=0.4090)
+    KSK082_2_FU_BE2.wav (pant) -> synthetic hoot:
+      -> KSK484_FU_CS3 (KSK/FU, hoot, dist=0.0144)
+      -> 1241_CS2 (KAN/BB, hoot, dist=0.4822)
+      -> KSK239_FND_CS (KSK/FND, hoot, dist=0.4853)
+    KSK094_FU_BE1.wav (pant) -> synthetic hoot:
+      -> KSK322_FU_CS1 (KSK/FU, hoot, dist=0.0126)
+      -> KSK036_LAM_CS4 (MTB/LAM, hoot, dist=0.4504)
+      -> MTB059_KOC_CS (MTB/KOC, hoot, dist=0.4858)
+    KSK105_FU_BE3.wav (pant) -> synthetic hoot:
+      -> KSK204_FU_CS2 (KSK/FU, hoot, dist=0.0169)
+      -> KSK230_1_FND_CS3 (KSK/FND, hoot, dist=0.4671)
+      -> MTB144_LAM_CS1 (MTB/LAM, hoot, dist=0.4788)
+    KSK163_FU_BE2.wav (pant) -> synthetic hoot:
+      -> KSK116_FU_CS1 (KSK/FU, hoot, dist=0.0353)
+      -> MTB023_EDG_CS3 (MTB/EDG, hoot, dist=0.5266)
+      -> 1177_CS3 (KAN/KK, hoot, dist=0.5404)
+
+  KK (KAN):
+    1002_2_BE2.wav (pant) -> synthetic hoot:
+      -> 1065_CS1 (KAN/KK, hoot, dist=0.0187)
+      -> 1088_BE8 (KAN/KK, pant, dist=0.5735)
+      -> MTB128_FU_CS2 (KSK/FU, hoot, dist=0.5970)
+    1002_BE6.wav (pant) -> synthetic hoot:
+      -> 1626_CS4 (KAN/KK, hoot, dist=0.1431)
+      -> KSK003_EDG_CS2 (MTB/EDG, hoot, dist=0.3431)
+      -> KSK467_SL_CS2 (KSK/SL, hoot, dist=0.4716)
+    1018_2_BE2.wav (pant) -> synthetic hoot:
+      -> 1133_2_CS1 (KAN/KK, hoot, dist=0.0112)
+      -> 1086_CS1 (KAN/PG, hoot, dist=0.2006)
+      -> KSK096_SL_CS1 (KSK/SL, hoot, dist=0.2019)
+    1018_BE6.wav (pant) -> synthetic hoot:
+      -> 1018_2_CS1 (KAN/KK, hoot, dist=0.0107)
+      -> KSK506_FU_CS1 (KSK/FU, hoot, dist=0.2496)
+      -> 1197_CS1 (KAN/LK, hoot, dist=0.3440)
+    1032_BE8.wav (pant) -> synthetic hoot:
+      -> 1032_2_CS2 (KAN/KK, hoot, dist=0.0182)
+      -> MTB023_KOC_BE2 (MTB/KOC, pant, dist=0.4802)
+      -> KSK166_SN_CS2 (KSK/SN, hoot, dist=0.4869)
+    1042_BE4.wav (pant) -> synthetic hoot:
+      -> 1269_CS2 (KAN/KK, hoot, dist=0.2939)
+      -> 1148_CS2 (KAN/KK, hoot, dist=0.4110)
+      -> 1329_CS3 (KAN/AJ, hoot, dist=0.4206)
+
+  KOC (MTB):
+    MTB002_KOC_BE5.wav (pant) -> synthetic hoot:
+      -> MTB019_KOC_CS2 (MTB/KOC, hoot, dist=0.0018)
+      -> KSK028_SN_CS1 (KSK/SN, hoot, dist=0.5613)
+      -> 1004_CS3 (KAN/ES, hoot, dist=0.5711)
+    MTB004_KOC_BE2.wav (pant) -> synthetic hoot:
+      -> MTB036_KOC_CS1 (MTB/KOC, hoot, dist=0.0037)
+      -> MTB059_KOC_CS (MTB/KOC, hoot, dist=0.5093)
+      -> 1384_CS1 (KAN/ST, hoot, dist=0.5095)
+    MTB019_KOC_nov_BE.wav (pant) -> synthetic hoot:
+      -> MTB057_KOC_CS2 (MTB/KOC, hoot, dist=0.0033)
+      -> 1342_BE1 (KAN/TJ, pant, dist=0.5233)
+      -> KSK241_2_SL_BE1 (KSK/SL, pant, dist=0.5446)
+    MTB020_KOC_BE1.wav (pant) -> synthetic hoot:
+      -> MTB020_KOC_CS3 (MTB/KOC, hoot, dist=0.0902)
+      -> MTB042_1_KOC_CS1 (MTB/KOC, hoot, dist=0.3962)
+      -> MTB055_EDG_BE3 (MTB/EDG, pant, dist=0.4729)
+    MTB023_KOC_BE2.wav (pant) -> synthetic hoot:
+      -> MTB042_1_KOC_CS1 (MTB/KOC, hoot, dist=0.0053)
+      -> MTB055_EDG_BE3 (MTB/EDG, pant, dist=0.1557)
+      -> KSK251_FU_CS2 (KSK/FU, hoot, dist=0.1565)
+    MTB036_KOC_BE1.wav (pant) -> synthetic hoot:
+      -> MTB136_KOC_CS3 (MTB/KOC, hoot, dist=0.0035)
+      -> 1204_BE6 (KAN/LK, pant, dist=0.5709)
+      -> MTB137_KOC_CS2 (MTB/KOC, hoot, dist=0.5905)
+
+  LAM (MTB):
+    KSK039_LAM_BE2.wav (pant) -> synthetic hoot:
+      -> MTB059_LAM_CS1 (MTB/LAM, hoot, dist=0.0272)
+      -> KSK036_LAM_CS4 (MTB/LAM, hoot, dist=0.4939)
+      -> MTB066_EDG_BE3 (MTB/EDG, pant, dist=0.5385)
+    MTB059_LAM_BE4.wav (pant) -> synthetic hoot:
+      -> KSK036_LAM_CS4 (MTB/LAM, hoot, dist=0.0173)
+      -> KSK322_FU_CS1 (KSK/FU, hoot, dist=0.4550)
+      -> MTB144_LAM_CS1 (MTB/LAM, hoot, dist=0.4682)
+    MTB067_LAM_BE3.wav (pant) -> synthetic hoot:
+      -> MTB144_LAM_CS1 (MTB/LAM, hoot, dist=0.0961)
+      -> KSK230_1_FND_CS3 (KSK/FND, hoot, dist=0.4262)
+      -> KSK023_SN_CS1 (KSK/SN, hoot, dist=0.4362)
+    MTB078_LAM_BE2.wav (pant) -> synthetic hoot:
+      -> KSK031_LAM_CS (MTB/LAM, hoot, dist=0.0397)
+      -> MTB034_2_FND_CS1 (KSK/FND, hoot, dist=0.4657)
+      -> 1121_CS2 (KAN/PG, hoot, dist=0.4712)
+    MTB109_LAM_BE9.wav (pant) -> synthetic hoot:
+      -> MTB067_LAM_CS2 (MTB/LAM, hoot, dist=0.0854)
+      -> MTB107_LAM_CS2 (MTB/LAM, hoot, dist=0.5287)
+      -> 1039_BE2 (KAN/PG, pant, dist=0.5415)
+    KSK031_LAM_CS.wav (hoot) -> synthetic pant:
+      -> MTB078_LAM_BE2 (MTB/LAM, pant, dist=0.0019)
+      -> 1296_2_BE3 (KAN/TJ, pant, dist=0.5689)
+      -> KSK469_SL_BE2 (KSK/SL, pant, dist=0.5900)
+
+  LK (KAN):
+    1105_BE6.wav (pant) -> synthetic hoot:
+      -> 1105_CS2 (KAN/LK, hoot, dist=0.2245)
+      -> 1326_CS2 (KAN/LK, hoot, dist=0.3861)
+      -> MTB042_1_KOC_CS1 (MTB/KOC, hoot, dist=0.4447)
+    1146_BE3.wav (pant) -> synthetic hoot:
+      -> 1243_CS2 (KAN/LK, hoot, dist=0.1016)
+      -> MTB107_LAM_CS2 (MTB/LAM, hoot, dist=0.4386)
+      -> KSK066_SN_CS1 (KSK/SN, hoot, dist=0.4460)
+    1168_BE4.wav (pant) -> synthetic hoot:
+      -> 1105_CS2 (KAN/LK, hoot, dist=0.0098)
+      -> KSK046_EDG_CS2 (MTB/EDG, hoot, dist=0.5480)
+      -> KSK005_EDG_BE3 (MTB/EDG, pant, dist=0.5543)
+    1197_BE5.wav (pant) -> synthetic hoot:
+      -> 1215_CS2 (KAN/LK, hoot, dist=0.1138)
+      -> 1243_CS2 (KAN/LK, hoot, dist=0.4686)
+      -> KSK280_ZS_CS1 (KSK/ZS, hoot, dist=0.4870)
+    1204_BE6.wav (pant) -> synthetic hoot:
+      -> 1218_CS1 (KAN/LK, hoot, dist=0.0052)
+      -> 1117_CS2 (KAN/PB, hoot, dist=0.5475)
+      -> KSK025_SN_CS (KSK/SN, hoot, dist=0.5705)
+    1215_BE3.wav (pant) -> synthetic hoot:
+      -> 1322_CS2 (KAN/LK, hoot, dist=0.0024)
+      -> 1132_CS2 (KAN/ES, hoot, dist=0.2187)
+      -> MTB021_EDG_CS1 (MTB/EDG, hoot, dist=0.2239)
+
+  LON (MTB):
+    MTB052_LON_BE3.wav (pant) -> synthetic hoot:
+      -> MTB122_LON_CS1 (MTB/LON, hoot, dist=0.0292)
+      -> KSK469_SL_BE2 (KSK/SL, pant, dist=0.5530)
+      -> KSK031_LAM_CS (MTB/LAM, hoot, dist=0.5722)
+    MTB060_LON_BE2.wav (pant) -> synthetic hoot:
+      -> MTB061_LON_CS2 (MTB/LON, hoot, dist=0.0255)
+      -> 1077_CS1 (KAN/AJ, hoot, dist=0.5058)
+      -> KSK241_1_SL_CS2 (KSK/SL, hoot, dist=0.5147)
+    MTB061_LON_BE1.wav (pant) -> synthetic hoot:
+      -> MTB118_LON_CS (MTB/LON, hoot, dist=0.1084)
+      -> KSK034_EDG_CS2 (MTB/EDG, hoot, dist=0.3545)
+      -> MTB072_LON_CS1 (MTB/LON, hoot, dist=0.4585)
+    MTB069_LON_BE6.wav (pant) -> synthetic hoot:
+      -> MTB060_LON_CS1 (MTB/LON, hoot, dist=0.0371)
+      -> 1649_CS1 (KAN/KK, hoot, dist=0.4667)
+      -> KSK241_2_SL_CS2 (KSK/SL, hoot, dist=0.4982)
+    MTB072_LON_BE4.wav (pant) -> synthetic hoot:
+      -> MTB052_LON_CS1 (MTB/LON, hoot, dist=0.0231)
+      -> MTB144_LAM_CS1 (MTB/LAM, hoot, dist=0.4514)
+      -> KSK216_FND_CS3 (KSK/FND, hoot, dist=0.4651)
+    MTB122_LON_BE.wav (pant) -> synthetic hoot:
+      -> MTB072_LON_CS1 (MTB/LON, hoot, dist=0.0312)
+      -> MTB050_KOC_BE2 (MTB/KOC, pant, dist=0.5415)
+      -> MTB023_KOC_BE2 (MTB/KOC, pant, dist=0.5490)
+
+  PG (KAN):
+    1039_BE2.wav (pant) -> synthetic hoot:
+      -> 1268_CS1 (KAN/PG, hoot, dist=0.0285)
+      -> 1149_CS2 (KAN/TJ, hoot, dist=0.5110)
+      -> KSK201_FU_CS1 (KSK/FU, hoot, dist=0.5339)
+    1086_BE5.wav (pant) -> synthetic hoot:
+      -> 1039_CS1 (KAN/PG, hoot, dist=0.0256)
+      -> MTB054_EDG_CS1 (MTB/EDG, hoot, dist=0.4846)
+      -> KSK034_EDG_CS2 (MTB/EDG, hoot, dist=0.4867)
+    1114_BE2.wav (pant) -> synthetic hoot:
+      -> 1406_CS1 (KAN/PG, hoot, dist=0.0119)
+      -> 1188_CS1 (KAN/ES, hoot, dist=0.3550)
+      -> MTB025_EDG_jan_CS1 (MTB/EDG, hoot, dist=0.3820)
+    1268_BE2.wav (pant) -> synthetic hoot:
+      -> 1356_CS3 (KAN/PG, hoot, dist=0.0281)
+      -> KSK265_FU_CS1 (KSK/FU, hoot, dist=0.4016)
+      -> KSK056_SN_CS2 (KSK/SN, hoot, dist=0.5213)
+    1406_BE3.wav (pant) -> synthetic hoot:
+      -> 1119_CS2 (KAN/PG, hoot, dist=0.0308)
+      -> MTB042_1_KOC_CS1 (MTB/KOC, hoot, dist=0.2101)
+      -> MTB055_EDG_BE3 (MTB/EDG, pant, dist=0.2396)
+    1039_CS1.wav (hoot) -> synthetic pant:
+      -> 1086_BE5 (KAN/PG, pant, dist=0.0018)
+      -> 1653_BE (KAN/ST, pant, dist=0.2202)
+      -> 1088_BE8 (KAN/KK, pant, dist=0.2471)
+
+  SL (KSK):
+    KSK094_SL_BE14.wav (pant) -> synthetic hoot:
+      -> KSK467_SL_CS2 (KSK/SL, hoot, dist=0.0469)
+      -> MTB044_FAN_CS (MTB/FAN, hoot, dist=0.2808)
+      -> 1119_CS2 (KAN/PG, hoot, dist=0.3186)
+    KSK096_SL_BE7.wav (pant) -> synthetic hoot:
+      -> KSK241_3_SL_CS1 (KSK/SL, hoot, dist=0.0003)
+      -> MTB018_EDG_CS1 (MTB/EDG, hoot, dist=0.2867)
+      -> KSK039_LAM_CS1 (MTB/LAM, hoot, dist=0.3221)
+    KSK241_1_SL_BE2.wav (pant) -> synthetic hoot:
+      -> MTB023_SL_CS1 (KSK/SL, hoot, dist=0.0006)
+      -> 1133_CS1 (KAN/KK, hoot, dist=0.1674)
+      -> 1136_CS1 (KAN/KK, hoot, dist=0.2549)
+    KSK241_2_SL_BE1.wav (pant) -> synthetic hoot:
+      -> MTB122_SL_CS1 (KSK/SL, hoot, dist=0.0003)
+      -> KSK216_FND_CS3 (KSK/FND, hoot, dist=0.6369)
+      -> MTB066_EDG_BE3 (MTB/EDG, pant, dist=0.6441)
+    KSK242_SL_BE4.wav (pant) -> synthetic hoot:
+      -> KSK469_SL_CS1 (KSK/SL, hoot, dist=0.0005)
+      -> 1131_CS1 (KAN/TJ, hoot, dist=0.4636)
+      -> MTB124_SN_CS2 (KSK/SN, hoot, dist=0.4786)
+    KSK243_SL_BE7.wav (pant) -> synthetic hoot:
+      -> MTB020_SL_CS1 (KSK/SL, hoot, dist=0.0027)
+      -> MTB054_SL_CS2 (KSK/SL, hoot, dist=0.5558)
+      -> MTB009_FAN_BE3 (MTB/FAN, pant, dist=0.5689)
+
+  SN (KSK):
+    KSK026_SN_BE3.wav (pant) -> synthetic hoot:
+      -> KSK049_SN_CS1 (KSK/SN, hoot, dist=0.4051)
+      -> KSK030_SN_CS1 (KSK/SN, hoot, dist=0.4081)
+      -> KSK168_SN_CS2 (KSK/SN, hoot, dist=0.4730)
+    KSK028_SN_BE3.wav (pant) -> synthetic hoot:
+      -> KSK404_SN_CS1 (KSK/SN, hoot, dist=0.2241)
+      -> KSK488_SN_CS2 (KSK/SN, hoot, dist=0.4867)
+      -> MTB144_LAM_CS1 (MTB/LAM, hoot, dist=0.5112)
+    KSK029_SN_BE1.wav (pant) -> synthetic hoot:
+      -> KSK259_SN_CS1 (KSK/SN, hoot, dist=0.0232)
+      -> MTB052_LON_CS1 (MTB/LON, hoot, dist=0.5682)
+      -> 1213_BE3 (KAN/YB, pant, dist=0.5853)
+    KSK032_SN_BE3.wav (pant) -> synthetic hoot:
+      -> KSK488_SN_CS2 (KSK/SN, hoot, dist=0.0037)
+      -> 1575_CS1 (KAN/ES, hoot, dist=0.3829)
+      -> 1161_CS3 (KAN/TJ, hoot, dist=0.3957)
+    KSK038_SN_BE5.wav (pant) -> synthetic hoot:
+      -> KSK401_SN_CS1 (KSK/SN, hoot, dist=0.0023)
+      -> KSK248_FU_CS1 (KSK/FU, hoot, dist=0.3090)
+      -> 1018_CS1 (KAN/KK, hoot, dist=0.3278)
+    KSK049_SN_BE2.wav (pant) -> synthetic hoot:
+      -> KSK166_SN_CS2 (KSK/SN, hoot, dist=0.3414)
+      -> KSK172_SN_CS1 (KSK/SN, hoot, dist=0.3808)
+      -> KSK170_SN_CS1 (KSK/SN, hoot, dist=0.4615)
+
+  ST (KAN):
+    1009_BE2.wav (pant) -> synthetic hoot:
+      -> 1222_CS2 (KAN/ST, hoot, dist=0.0068)
+      -> KSK022_SN_CS (KSK/SN, hoot, dist=0.5088)
+      -> 1152_BE2 (KAN/ES, pant, dist=0.5398)
+    1156_BE5.wav (pant) -> synthetic hoot:
+      -> 1371_CS1 (KAN/ST, hoot, dist=0.0212)
+      -> MTB018_EDG_CS1 (MTB/EDG, hoot, dist=0.2057)
+      -> KSK251_FU_CS2 (KSK/FU, hoot, dist=0.2485)
+    1165_BE4.wav (pant) -> synthetic hoot:
+      -> 1156_CS2 (KAN/ST, hoot, dist=0.0017)
+      -> 1575_CS1 (KAN/ES, hoot, dist=0.2863)
+      -> 1146_CS2 (KAN/LK, hoot, dist=0.3521)
+    1185_BE5.wav (pant) -> synthetic hoot:
+      -> 1185_CS3 (KAN/ST, hoot, dist=0.0050)
+      -> 1140_CS1 (KAN/KK, hoot, dist=0.3707)
+      -> 1121_CS2 (KAN/PG, hoot, dist=0.4244)
+    1222_BE7.wav (pant) -> synthetic hoot:
+      -> 1009_CS1 (KAN/ST, hoot, dist=0.0060)
+      -> 1086_CS1 (KAN/PG, hoot, dist=0.3207)
+      -> MTB025_EDG_CS1 (MTB/EDG, hoot, dist=0.4109)
+    1327_BE1.wav (pant) -> synthetic hoot:
+      -> 1384_CS1 (KAN/ST, hoot, dist=0.0093)
+      -> MTB030_FU_CS1 (KSK/FU, hoot, dist=0.4393)
+      -> 1209_CS1 (KAN/ES, hoot, dist=0.4952)
+
+  TJ (KAN):
+    1060_BE1.wav (pant) -> synthetic hoot:
+      -> 1284_CS1 (KAN/TJ, hoot, dist=0.2026)
+      -> 1134_CS2 (KAN/TJ, hoot, dist=0.2451)
+      -> KSK007_FU_CS3 (KSK/FU, hoot, dist=0.4263)
+    1126_BE1.wav (pant) -> synthetic hoot:
+      -> 1163_CS1 (KAN/TJ, hoot, dist=0.1083)
+      -> 1349_CS1 (KAN/TJ, hoot, dist=0.1806)
+      -> 1136_CS1 (KAN/KK, hoot, dist=0.2162)
+    1149_BE1.wav (pant) -> synthetic hoot:
+      -> 1181_CS1 (KAN/TJ, hoot, dist=0.3593)
+      -> 1366_CS5 (KAN/TJ, hoot, dist=0.4315)
+      -> 1011_CS1 (KAN/TJ, hoot, dist=0.4429)
+    1181_BE1.wav (pant) -> synthetic hoot:
+      -> 1288_CS2 (KAN/TJ, hoot, dist=0.1355)
+      -> KSK078_SN_CS1 (KSK/SN, hoot, dist=0.5021)
+      -> MTB098_EDG_CS4 (MTB/EDG, hoot, dist=0.5022)
+    1296_2_BE3.wav (pant) -> synthetic hoot:
+      -> 1366_CS5 (KAN/TJ, hoot, dist=0.4542)
+      -> 1296_CS3 (KAN/TJ, hoot, dist=0.4554)
+      -> 1127_CS4 (KAN/TJ, hoot, dist=0.4949)
+    1342_BE1.wav (pant) -> synthetic hoot:
+      -> 1337_CS2 (KAN/TJ, hoot, dist=0.4681)
+      -> 1284_CS1 (KAN/TJ, hoot, dist=0.4693)
+      -> KSK401_SN_CS1 (KSK/SN, hoot, dist=0.5059)
+
+  ZS (KSK):
+    KSK140_ZS_BE.wav (pant) -> synthetic hoot:
+      -> KSK140_ZS_CS (KSK/ZS, hoot, dist=0.0326)
+      -> 1240_CS1 (KAN/BB, hoot, dist=0.4810)
+      -> MTB112_LON_CS2 (MTB/LON, hoot, dist=0.5401)
+    KSK141_ZS_BE3.wav (pant) -> synthetic hoot:
+      -> KSK140_ZS_CS (KSK/ZS, hoot, dist=0.1063)
+      -> KSK142_ZS_CS (KSK/ZS, hoot, dist=0.4904)
+      -> 1240_CS1 (KAN/BB, hoot, dist=0.5011)
+    KSK220_ZS_BE1.wav (pant) -> synthetic hoot:
+      -> KSK285_ZS_CS1 (KSK/ZS, hoot, dist=0.0310)
+      -> MTB054_SL_CS2 (KSK/SL, hoot, dist=0.5323)
+      -> MTB049_EDG_CS2 (MTB/EDG, hoot, dist=0.5463)
+    KSK244_ZS_BE4.wav (pant) -> synthetic hoot:
+      -> KSK220_ZS_CS1 (KSK/ZS, hoot, dist=0.0475)
+      -> KSK306_FO_CS1 (KSK/FO, hoot, dist=0.4793)
+      -> KSK280_ZS_CS1 (KSK/ZS, hoot, dist=0.4821)
+    KSK274_ZS_BE5.wav (pant) -> synthetic hoot:
+      -> MTB044_ZS_CS2 (KSK/ZS, hoot, dist=0.0457)
+      -> MTB034_2_FND_CS1 (KSK/FND, hoot, dist=0.3945)
+      -> KSK267_GIM_CS2 (KSK/None, hoot, dist=0.4956)
+    KSK280_ZS_BE2.wav (pant) -> synthetic hoot:
+      -> KSK280_ZS_CS1 (KSK/ZS, hoot, dist=0.1358)
+      -> KSK241_1_SL_CS2 (KSK/SL, hoot, dist=0.3376)
+      -> KSK220_ZS_CS1 (KSK/ZS, hoot, dist=0.4005)
+
+======================================================================
+OVERALL PATTERN
+======================================================================
+
+  4/18 callers show significantly lower in-group cycle loss
+  (one-sided Mann-Whitney U, p < 0.05)

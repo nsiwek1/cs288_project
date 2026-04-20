@@ -1,0 +1,59 @@
+======================================================================
+CHIMPANZEE PANT-HOOT DIALECT ANALYSIS RESULTS
+======================================================================
+Model: AVEX (esp_aves2_sl_beats_bio)
+Method: Cycle-consistent embedding mapping (CycleGAN in embedding space)
+Training community: Kasekela (KSK)
+Test communities: Mitumba (MTB, neighboring), Kanyawara (KAN, distant)
+
+--- Cycle Reconstruction Error (Mean +/- SD) ---
+
+Community            Pant Cycle                Hoot Cycle                Combined            
+----------------------------------------------------------------------
+KSK (Kasekela    ) 0.0019 +/- 0.0000     0.0019 +/- 0.0000     0.0019 +/- 0.0000
+MTB (Mitumba     ) 0.0019 +/- 0.0000     0.0019 +/- 0.0000     0.0019 +/- 0.0000
+KAN (Kanyawara   ) 0.0019 +/- 0.0000     0.0019 +/- 0.0000     0.0019 +/- 0.0000
+
+--- Hypothesis: Dialect Distance Ordering (KSK < MTB < KAN) ---
+
+  PANT cycle: KSK=0.0019, MTB=0.0019, KAN=0.0019
+    Ordering KSK < MTB < KAN: SUPPORTED
+    Permutation test p-value: 0.0000
+  HOOT cycle: KSK=0.0019, MTB=0.0019, KAN=0.0019
+    Ordering KSK < MTB < KAN: NOT SUPPORTED
+    Permutation test p-value: 0.0000
+
+--- Pairwise Statistical Tests ---
+
+  hoot_KSK_vs_KAN:
+    Mann-Whitney U = 4546.0, p = 0.0000
+    Effect size (rank-biserial) = 0.413
+    Mean diff = 0.0000, 95% CI = [0.0000, 0.0000]
+  hoot_KSK_vs_MTB:
+    Mann-Whitney U = 2669.0, p = 0.0000
+    Effect size (rank-biserial) = 0.471
+    Mean diff = 0.0000, 95% CI = [0.0000, 0.0000]
+  hoot_MTB_vs_KAN:
+    Mann-Whitney U = 5205.0, p = 0.9277
+    Effect size (rank-biserial) = -0.008
+    Mean diff = -0.0000, 95% CI = [-0.0000, 0.0000]
+  pant_KSK_vs_KAN:
+    Mann-Whitney U = 2786.0, p = 0.0000
+    Effect size (rank-biserial) = 0.379
+    Mean diff = 0.0000, 95% CI = [0.0000, 0.0000]
+  pant_KSK_vs_MTB:
+    Mann-Whitney U = 1771.0, p = 0.0023
+    Effect size (rank-biserial) = 0.305
+    Mean diff = 0.0000, 95% CI = [0.0000, 0.0000]
+  pant_MTB_vs_KAN:
+    Mann-Whitney U = 1945.0, p = 0.2596
+    Effect size (rank-biserial) = 0.116
+    Mean diff = 0.0000, 95% CI = [-0.0000, 0.0000]
+
+--- Which Vocalization Type Carries More Dialect Information? ---
+
+  Pant cycle spread (KAN - KSK): 0.0000
+  Hoot cycle spread (KAN - KSK): 0.0000
+  -> HOOTS (climaxes) show more dialect differentiation
+
+======================================================================

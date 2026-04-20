@@ -1,0 +1,56 @@
+======================================================================
+FEATURE-LEVEL DIALECT ANALYSIS REPORT
+Which acoustic features make KSK-MTB closer than KSK-KAN?
+======================================================================
+
+--- BUILDUPS (Pants) ---
+
+Shared dialect features (KSK≈MTB but KSK≠KAN): 10
+  duration     (Duration): KSK=333.8±85.3, MTB=333.8±83.2, KAN=294.1±67.4
+  F0start      (Fundamental Freq): KSK=284.1±100.1, MTB=270.1±87.5, KAN=322.1±101.8
+  F0mean       (Fundamental Freq): KSK=316.3±58.5, MTB=311.6±50.0, KAN=294.1±47.3
+  F0loc        (Fundamental Freq): KSK=0.4±0.3, MTB=0.4±0.3, KAN=0.3±0.4
+  trmean       (Timbre/Roughness): KSK=37.5±20.9, MTB=37.5±19.0, KAN=28.9±16.1
+  trmax        (Timbre/Roughness): KSK=140.9±74.8, MTB=122.4±55.9, KAN=109.3±63.5
+  Pfstart      (Pitch Formant): KSK=628.3±1538.9, MTB=417.0±842.4, KAN=551.9±1077.4
+  Pfend        (Pitch Formant): KSK=553.2±1266.4, MTB=269.6±185.9, KAN=527.9±1095.4
+  Pfmin        (Pitch Formant): KSK=154.1±106.9, MTB=171.9±80.6, KAN=203.3±75.8
+  Pfmaxamp     (Pitch Formant): KSK=450.3±764.0, MTB=334.9±120.4, KAN=294.8±73.1
+
+Top features by |d(KSK-KAN)| - |d(KSK-MTB)|:
+  duration    : d(KSK-MTB)=+0.001, d(KSK-KAN)=+0.509, diff=0.508
+  trmean      : d(KSK-MTB)=+0.004, d(KSK-KAN)=+0.458, diff=0.454
+  Pfmin       : d(KSK-MTB)=-0.179, d(KSK-KAN)=-0.522, diff=0.343
+  F0mean      : d(KSK-MTB)=+0.084, d(KSK-KAN)=+0.413, diff=0.329
+  F0start     : d(KSK-MTB)=+0.145, d(KSK-KAN)=-0.374, diff=0.229
+
+Effect size difference by feature category:
+  Fundamental Freq    : mean diff = 0.097 (KAN more different)
+  Pitch Formant       : mean diff = 0.020 (KAN more different)
+  Duration            : mean diff = 0.508 (KAN more different)
+  Loudness            : mean diff = 0.142 (KAN more different)
+  Timbre/Roughness    : mean diff = 0.269 (KAN more different)
+  Noise               : mean diff = -0.806 (MTB more different)
+
+--- CLIMAXES (Hoots) ---
+
+Shared dialect features (KSK≈MTB but KSK≠KAN): 4
+  trmean       (Timbre/Roughness): KSK=90.5±40.3, MTB=93.1±45.4, KAN=121.7±51.0
+  Pfminloc     (Pitch Formant): KSK=0.5±0.5, MTB=0.7±0.4, KAN=0.8±0.4
+  noise_mean   (Noise): KSK=0.3±0.1, MTB=0.4±0.2, KAN=0.2±0.1
+  noise_max    (Noise): KSK=0.5±0.1, MTB=0.6±0.2, KAN=0.4±0.2
+
+Top features by |d(KSK-KAN)| - |d(KSK-MTB)|:
+  trmean      : d(KSK-MTB)=-0.063, d(KSK-KAN)=-0.677, diff=0.614
+  noise_max   : d(KSK-MTB)=-0.211, d(KSK-KAN)=+0.703, diff=0.492
+  lmmean      : d(KSK-MTB)=-0.063, d(KSK-KAN)=-0.237, diff=0.174
+  Pfstart     : d(KSK-MTB)=+0.045, d(KSK-KAN)=+0.176, diff=0.130
+  Pfminloc    : d(KSK-MTB)=-0.352, d(KSK-KAN)=-0.472, diff=0.120
+
+Effect size difference by feature category:
+  Fundamental Freq    : mean diff = -0.322 (MTB more different)
+  Pitch Formant       : mean diff = -0.060 (MTB more different)
+  Duration            : mean diff = -0.507 (MTB more different)
+  Loudness            : mean diff = -0.075 (MTB more different)
+  Timbre/Roughness    : mean diff = 0.012 (KAN more different)
+  Noise               : mean diff = 0.303 (KAN more different)

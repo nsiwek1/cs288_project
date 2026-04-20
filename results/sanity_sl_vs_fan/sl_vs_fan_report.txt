@@ -1,0 +1,20 @@
+============================================================
+SANITY CHECK: SL-trained CycleGAN -> FAN generalization
+============================================================
+
+Training data: SL (14 pants, 12 hoots)
+Test data:     FAN (3 pants, 8 hoots)
+
+SL  combined cycle loss: 0.0179
+FAN combined cycle loss: 0.1238
+Difference (FAN - SL):   0.1059
+
+Mann-Whitney U (SL < FAN): U=0.0, p=0.0000
+Effect size: 1.000
+95% CI on diff: [0.0863, 0.1273]
+
+Other KSK callers: 0.1242 (n=199)
+
+CONCLUSION: FAN has significantly higher reconstruction error.
+The SL-trained cycle breaks down on FAN, consistent with
+cross-community dialect differences (SL=Kasekela, FAN=Mitumba).
