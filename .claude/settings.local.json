@@ -46,7 +46,8 @@
       "Bash(/opt/anaconda3/envs/neuro140/bin/python -c \"import torch; print\\(torch.__version__\\)\")",
       "Bash(/opt/anaconda3/envs/neuro140/bin/python -c \"import openpyxl; print\\(''openpyxl ok''\\)\")",
       "Bash(/opt/anaconda3/envs/neuro140/bin/python \"/Users/natalia_mac/Downloads/Chimpanzee Pant-Hoots/permutation_baseline.py\")",
-      "Bash(/opt/anaconda3/envs/neuro140/bin/pip install:*)"
+      "Bash(/opt/anaconda3/envs/neuro140/bin/pip install:*)",
+      "Bash(kill:*)"
     ]
   }
 }

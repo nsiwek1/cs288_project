@@ -18,9 +18,13 @@ across communities, or whether any apparent differences are just noise.
 
 import json
 import sys
+import functools
 import warnings
 from pathlib import Path
 from collections import defaultdict
+
+# Force unbuffered print so we can monitor progress
+print = functools.partial(print, flush=True)
 
 # Remove project dir from sys.path to prevent code.py from shadowing
 # stdlib 'code' module (circular import issue with torch/pdb).
@@ -58,12 +62,12 @@ HIDDEN_DIM = 512
 N_HIDDEN_LAYERS = 4
 LEARNING_RATE = 5e-5
 WEIGHT_DECAY = 1e-6
-N_EPOCHS = 1000
+N_EPOCHS = 200
 CYCLE_WEIGHT = 20.0
 IDENTITY_WEIGHT = 2.0
 ADVERSARIAL_WEIGHT = 1.0
 BATCH_SIZE = 8
-PATIENCE = 100
+PATIENCE = 30
 
 DEVICE = "mps" if torch.backends.mps.is_available() else "cpu"
 
@@ -81,7 +85,7 @@ for comm, info in COMMUNITY_MAP.items():
 OUT_DIR = RESULTS_DIR / "permutation_baseline"
 OUT_DIR.mkdir(exist_ok=True)
 
-N_PERMUTATIONS = 100
+N_PERMUTATIONS = 15
 
 
 # ---------------------------------------------------------------------------
