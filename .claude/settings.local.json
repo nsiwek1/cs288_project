@@ -47,7 +47,8 @@
       "Bash(/opt/anaconda3/envs/neuro140/bin/python -c \"import openpyxl; print\\(''openpyxl ok''\\)\")",
       "Bash(/opt/anaconda3/envs/neuro140/bin/python \"/Users/natalia_mac/Downloads/Chimpanzee Pant-Hoots/permutation_baseline.py\")",
       "Bash(/opt/anaconda3/envs/neuro140/bin/pip install:*)",
-      "Bash(kill:*)"
+      "Bash(kill:*)",
+      "Bash(git mv *)"
     ]
   }
 }
